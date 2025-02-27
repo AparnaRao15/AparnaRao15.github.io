@@ -1,15 +1,3 @@
-# Aparna Raghavendra Rao  
-**Data Analyst**  
-
-<div style="display: flex; align-items: flex-start; gap: 40px;">
-
-<!-- Left Section: Profile Pic & Contact -->
-<div style="text-align: left; max-width: 200px;">
-    <img src="images/aparna_headshot.jpeg" alt="Aparna Raghavendra Rao" style="width: 140px; border-radius: 10px;">
-</div>
-</div>
-<!-- Right Section: Skills, Education & Experience -->
-    
 ### 🛠 Technical Skills  
 **SQL, Python, R, Tableau, Microsoft Office, SAS, PowerBI, GSuite, Looker**  
 
