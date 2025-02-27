@@ -1,18 +1,15 @@
-# Aparna Raghavendra Rao  
-**Data Analyst**  
-
 <div style="display: flex; align-items: flex-start; gap: 40px;">
-
-<!-- Profile Picture & Contact Info -->
+<!-- Profile Picture -->
 <div style="text-align: center; max-width: 200px;">
     <img src="images/aparna_headshot.jpeg" alt="Aparna Raghavendra Rao" style="width: 140px; border-radius: 10px;">
-    
+</div>
+
+<!-- Contact Info (Moved Outside the div) -->
 ### 📌 Contact  
 **Email:** aparnarao1996@gmail.com  
 **Location:** Maryland, USA - Eastern Standard Time (EST)  
 **[🔗 View My LinkedIn Profile](https://www.linkedin.com/in/aparna-raghavendra/)**  
 **🟢 Online**  <!-- Change manually to 🔴 Offline when needed -->
-</div>
 
 <!-- Right Section with Skills, Education & Experience -->
 <div style="max-width: 600px;">
@@ -30,30 +27,29 @@
 ### 💼 Work Experience  
 **Business Analyst at QL2 Software (Capstone Project in Business Analytics) (_Aug 2023 - Nov 2023_)**  
 📍 College Park, Maryland, USA  
-- Analyzed airline industry trends by executing SQL queries on over 20 million records, transforming raw data into actionable insights. 
-- Automated data cleaning processes by developing a Python script, reducing processing time by 70% and ensuring data accuracy. 
-- Created interactive Tableau dashboards to visualize market trends and competitive landscapes, enabling data-driven strategic decision-making.
-**Key Skills:** SQL, Data Cleaning, Automation, Python, Tableau, Market Analysis
+- Analyzed airline industry trends by executing SQL queries on over 20 million records, transforming raw data into actionable insights.  
+- Automated data cleaning processes by developing a Python script, reducing processing time by 70% and ensuring data accuracy.  
+- Created interactive Tableau dashboards to visualize market trends and competitive landscapes, enabling data-driven strategic decision-making.  
+**Key Skills:** SQL, Data Cleaning, Automation, Python, Tableau, Market Analysis  
 
 **Data Analyst Intern at Shea Radiance (Maryland Global Consulting) (_June 2023 - Aug 2023_)**  
 📍 Savage, MD, USA  
-- Conducted exploratory data analysis to uncover trends and patterns and provided actionable insights for a small business. 
-- Designed and developed interactive Tableau dashboards to visualize eight critical strategic growth and operational efficiency areas.
-- Implemented an inventory management system that optimized stock tracking and forecasting, reducing stockouts and surplus inventory.
-- Collaborated with clients to identify pain points, translated business needs into technical solutions, and recommended best practices to enhance operational workflows. 
-**Key Skills:** Data Analysis, Excel, Tableau, Strategic Decision Making, Inventory Management
+- Conducted exploratory data analysis to uncover trends and patterns and provided actionable insights for a small business.  
+- Designed and developed interactive Tableau dashboards to visualize eight critical strategic growth and operational efficiency areas.  
+- Implemented an inventory management system that optimized stock tracking and forecasting, reducing stockouts and surplus inventory.  
+- Collaborated with clients to identify pain points, translated business needs into technical solutions, and recommended best practices to enhance operational workflows.  
+**Key Skills:** Data Analysis, Excel, Tableau, Strategic Decision Making, Inventory Management  
 
 **Management Trainee at Allanasons Private Limited (_December 2020 - November 2021_)**  
-📍 Bengaluru, India 
-- Performed market and competitor analysis using Excel and R, delivered insights to aid in developing a new business segment, and drafted a budget plan for machinery purchases of $100,000.
-- Streamlined interdepartmental workflows by creating an Excel tracker, boosting collaboration and operational planning. 
-- Optimized cost analysis processes by engineering spreadsheets to evaluate raw material costs, reducing processing time by 83%.
-- Ensured export documentation accuracy and compliance, partnering with clients to resolve discrepancies and enhance processes. 
-**Key Skills:** Market Analysis, Excel, R, Process Optimization, Export Documentation, Cross-Functional Collaboration
+📍 Bengaluru, India  
+- Performed market and competitor analysis using Excel and R, delivered insights to aid in developing a new business segment, and drafted a budget plan for machinery purchases of $100,000.  
+- Streamlined interdepartmental workflows by creating an Excel tracker, boosting collaboration and operational planning.  
+- Optimized cost analysis processes by engineering spreadsheets to evaluate raw material costs, reducing processing time by 83%.  
+- Ensured export documentation accuracy and compliance, partnering with clients to resolve discrepancies and enhance processes.  
+**Key Skills:** Market Analysis, Excel, R, Process Optimization, Export Documentation, Cross-Functional Collaboration  
 
 </div>
 </div>  
-
 ---
 
 ## 🚀 Projects  
