@@ -1,23 +1,50 @@
-# 💫 About Me:
-💡 Currently working on:  <br>- Enhancing my Tableau dashboards & GitHub portfolio <br>- Improving Python & SQL automation for data analysis  <br><br>🤝 Looking to collaborate on:<br>- Data visualization & analytics projects  <br>- Open-source data science & business analytics  <br><br>📌 Technical Skills:<br>- Data Analysis: Python, R, SQL, Excel, Power BI, Tableau, Looker  <br>- Machine Learning: Scikit-learn, Pandas, Numpy  <br>- Web Development: Streamlit, Jupyter Notebooks  <br><br>📖 Currently learning:<br>- Advanced SQL optimizations & data modeling <br>- Time series forecasting & predictive analytics  <br><br>💬 Ask me about:  <br>- How I built my Beauty Product Recommender System<br>- Data-driven storytelling & dashboard design  <br><br>⚡ Fun fact:  <br>I can analyze millions of data points in Python but still struggle to pick a Netflix show in under 10 minutes! 🎬📊
+<h1 align="left">Hi 👋 I'm Aparna</h1>
 
+###
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aparna-raghavendra) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:aparnaarao1996@gmail.com) 
+<p align="left">I'm an aspiring Data Analyst with an MS in Business Analytics & Advanced Certificate in Data Science</p>
 
+###
 
-# 💻 Tech Stack:
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
+<h2 align="left">About me</h2>
 
+###
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=aparnarao15&theme=transparent&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<p align="left">💡 Currently working on:<br>- Enhancing my Tableau dashboards & GitHub portfolio<br>- Improving Python & SQL automation for data analysis<br><br>🤝 Looking to collaborate on:<br>- Data visualization & analytics projects<br>- Open-source data science & business analytics<br><br>📌 Technical Skills:<br>- Data Analysis: Python, R, SQL, Excel, Power BI, Tableau, Looker<br>- Machine Learning: Scikit-learn, Pandas, Numpy<br>- Web Development: Streamlit, Jupyter Notebooks<br><br>📖 Currently learning:<br>- Advanced SQL optimizations & data modeling<br>- Time series forecasting & predictive analytics<br><br>💬 Ask me about:<br>- How I built my Beauty Product Recommender System<br>- Data-driven storytelling & dashboard design<br><br>⚡ Fun fact:<br>I can analyze millions of data points in Python but still struggle to pick a Netflix show in under 10 minutes! 🎬📊</p>
 
+###
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=aparnarao15&theme=transparent&no-frame=false&no-bg=true&margin-w=4)
+<h2 align="left">Tech Stack</h2>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" height="40" alt="rstudio logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+</div>
+
+###
 
 ## 🎓 Education  
 **Post Master’s Advanced Certificate, Data Science**  
