@@ -1,17 +1,21 @@
+# Aparna Raghavendra Rao  
+**Data Analyst**  
+
 <div style="display: flex; align-items: flex-start; gap: 40px;">
-<!-- Profile Picture -->
+
+<!-- Left Section: Profile Pic & Contact -->
 <div style="text-align: center; max-width: 200px;">
     <img src="images/aparna_headshot.jpeg" alt="Aparna Raghavendra Rao" style="width: 140px; border-radius: 10px;">
+    
+    <br>  
+    ### 📌 Contact  
+    **Email:** aparnarao1996@gmail.com  
+    **Location:** Maryland, USA - Eastern Standard Time (EST)  
+    **[🔗 View My LinkedIn Profile](https://www.linkedin.com/in/aparna-raghavendra/)**  
+    **🟢 Online**  <!-- Change manually to 🔴 Offline when needed -->
 </div>
 
-<!-- Contact Info (Moved Outside the div) -->
-### 📌 Contact  
-**Email:** aparnarao1996@gmail.com  
-**Location:** Maryland, USA - Eastern Standard Time (EST)  
-**[🔗 View My LinkedIn Profile](https://www.linkedin.com/in/aparna-raghavendra/)**  
-**🟢 Online**  <!-- Change manually to 🔴 Offline when needed -->
-
-<!-- Right Section with Skills, Education & Experience -->
+<!-- Right Section: Skills, Education & Experience -->
 <div style="max-width: 600px;">
     
 ### 🛠 Technical Skills  
