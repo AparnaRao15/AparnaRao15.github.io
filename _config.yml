@@ -1,5 +1,5 @@
 title: Aparna Raghavendra Rao
-#logo: 
-#description: Data Analyst etc - below picture text
-#show_downloads: true (can be false if we dont want ppl downloading code)
+logo: images/aparna_headshot.jpeg
+description: Aspiring Data Analyst | Passionate about storytelling with data for business impact
+show_downloads: true 
 theme: jekyll-theme-modernist
