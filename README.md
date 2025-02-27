@@ -2,8 +2,6 @@
 
 
 
-<p align="left">I'm an aspiring Data Analyst with an MS in Business Analytics & Advanced Certificate in Data Science</p>
-
 
 
 <h2 align="left">About me</h2>
@@ -44,12 +42,7 @@
 </div>
 
 
-
-<div align="left">
-</div>
-
-
-
+## Socials
 <div align="left">
   <a href="https://www.linkedin.com/in/aparna-raghavendra/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
@@ -58,7 +51,6 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
   </a>
 </div>
-
 
 
 ## 🎓 Education  
