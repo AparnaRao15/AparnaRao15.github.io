@@ -1,1 +1,7 @@
-# AparnaRao15.github.io
+# Data Analyst
+
+### Education
+
+### Work Experience
+
+### Projects
