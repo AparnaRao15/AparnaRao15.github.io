@@ -37,16 +37,14 @@ _August 2024 - December 2024_
 + Developed a dynamic interface on Streamlit, enabling flexible multi-brand and multi-ingredient selections.
 ![Project Logo](images/Beauty product.jpeg)
 
-### Effectiveness of ML Algorithms in Detecting Mental Health
+### Effectiveness of ML Algorithms in Detecting Mental Health [Link](https://github.com/AparnaRao15/ML-Algorithms-and-Mental-Health-Detection)
 _May 2024 - August 2024_
-[Project Link](https://github.com/AparnaRao15/ML-Algorithms-and-Mental-Health-Detection)
 + Developed a predictive model for mental health issue detection using Python, leveraging decision trees, SVM, K-means clustering, and hierarchical clustering.
 + Reviewed and synthesized insights from 6+ research papers to guide model selection and evaluation.
 ![Project Logo](images/Mental health.jpeg)
 
-### Maternal Health Risk Prediction
+### Maternal Health Risk Prediction [Link](https://github.com/AparnaRao15/Maternal-Health-Risk-Prediction)
 _February 2024 - April 2024_
-[Project Link](https://github.com/AparnaRao15/Maternal-Health-Risk-Prediction)
 + Developed a predictive maternal health risk assessment application in R, using multinomial regression, decision trees, and K-Nearest Neighbors. Visualized data and derived insights using ggplot2.
 + Implemented proactive healthcare and health management features, issuing warnings for abnormal patient vitals within the application.
 ![Project Logo](images/Maternal Health.jpeg)
