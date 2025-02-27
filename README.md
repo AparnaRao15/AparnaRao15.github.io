@@ -7,9 +7,8 @@
 <div style="text-align: left; max-width: 200px;">
     <img src="images/aparna_headshot.jpeg" alt="Aparna Raghavendra Rao" style="width: 140px; border-radius: 10px;">
 </div>
-
+</div>
 <!-- Right Section: Skills, Education & Experience -->
-<div style="max-width: 600px;">
     
 ### 🛠 Technical Skills  
 **SQL, Python, R, Tableau, Microsoft Office, SAS, PowerBI, GSuite, Looker**  
@@ -44,9 +43,6 @@
 - Optimized cost analysis processes by engineering spreadsheets to evaluate raw material costs, reducing processing time by 83%.  
 - Ensured export documentation accuracy and compliance, partnering with clients to resolve discrepancies and enhance processes.  
 **Key Skills:** Market Analysis, Excel, R, Process Optimization, Export Documentation, Cross-Functional Collaboration  
-
-</div>
-</div>  
 ---
 
 ## 🚀 Projects  
