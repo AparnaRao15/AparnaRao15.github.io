@@ -1,26 +1,30 @@
-# <div align="left">
-  <span style="font-size: 28px; font-weight: bold; color: #0056b3;">Aparna Raghavendra Rao</span>  
-  <br>  
-  <span style="font-size: 22px; font-weight: bold;">Data Analyst</span>  
+# Aparna Raghavendra Rao  
+**Data Analyst**  
+
+<div style="display: flex; align-items: flex-start; gap: 40px;">
+
+<div style="text-align: center; max-width: 200px;">
+    <img src="assets/images/headshot.jpg" alt="Aparna Raghavendra Rao" style="width: 150px; border-radius: 10px;">
 </div>
+### 📌 Contact 
+    **Email:** your.email@example.com  
+    **Location:** Eastern Standard Time (EST)  
+    **[🔗 View My LinkedIn Profile](https://linkedin.com/in/aparna-rao)**  
+    **🟢 Online**  <!-- Change manually to 🔴 Offline when needed -->
+<div style="max-width: 600px;">
+    
+### 🛠 Technical Skills  
+SQL, Python, R, Tableau, Microsoft Office, SAS, PowerBI, GSuite, Looker 
 
-<img src="assets/images/headshot.jpg" alt="Aparna Raghavendra Rao" width="160px" style="border-radius: 10px; float: left; margin-right: 20px;">
 
-## 🛠 Technical Skills  
-**SQL, Python, R, Tableau, Microsoft Office, SAS, Power BI, GSuite, Looker**  
-
----
-
-## 🎓 Education  
-
+### 🎓 Education  
 | Degree | Institution | Duration |
 |--------|------------|----------|
 | **Post Master’s Advanced Certificate, Data Science** | Monroe University | _Jan 2024 - Dec 2024_ |
 | **Master of Science (MS), Business Analytics** | University of Maryland, College Park | _Aug 2022 - Dec 2023_ |
 
----
 
-## 💼 Work Experience  
+### 💼 Work Experience  
 **Business Analyst at QL2 Software (Capstone Project in Business Analytics) (_August 2023 - November 2023_)**
 _College Park, Maryland, USA_
 - Analyzed airline industry trends by executing SQL queries on over 20 million records, transforming raw data into actionable insights. 
@@ -44,7 +48,8 @@ _Bengaluru, India_
 - Ensured export documentation accuracy and compliance, partnering with clients to resolve discrepancies and enhance processes. 
 Key Skills: Market Analysis, Excel, R, Process Optimization, Export Documentation, Cross-Functional Collaboration
 
-## Projects
+
+### 🚀 Projects  
 ### Beauty Product Recommender System
 _August 2024 - December 2024_
 + Built a beauty product recommender system using Python's rule-based approach to filter through 1 million+ records and match users with products matching user input such as skin type, ingredients, etc.
@@ -63,8 +68,58 @@ _February 2024 - April 2024_
 + Implemented proactive healthcare and health management features, issuing warnings for abnormal patient vitals within the application.
 ![Project Logo](images/Maternal Health.jpeg)
 
+</div>
+</div>
 
-## My Data Dashboards
+---
+
+##  
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+<div style="width: 300px; text-align: center;">
+    <img src="assets/images/hr_analytics_dashboard.png" alt="HR Analytics Dashboard" style="width: 100%; border-radius: 10px;">
+    <h3>HR Analytics Dashboard</h3>
+    <p>Explore insights on Genderwise employee attrition trends.</p>
+</div>
+
+<div style="width: 300px; text-align: center;">
+    <img src="assets/images/companies_acquisition_dashboard.png" alt="Companies Acquisition Dashboard" style="width: 100%; border-radius: 10px;">
+    <h3>Companies Acquisition Dashboard</h3>
+    <p>Insights on company acquisitions and parent company trends.</p>
+</div>
+
+</div>
+
+---
+
+## 🏆 Achievements  
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+<div style="width: 300px; text-align: center;">
+    <img src="assets/images/cert1.png" alt="Certificate 1" style="width: 100%; border-radius: 10px;">
+    <h3>Power BI Essential Training</h3>
+    <p>Issued: Feb 2024 <br> By: LinkedIn Learning</p>
+</div>
+
+<div style="width: 300px; text-align: center;">
+    <img src="assets/images/cert2.png" alt="Certificate 2" style="width: 100%; border-radius: 10px;">
+    <h3>Advanced SQL for Data Analysis</h3>
+    <p>Issued: Jan 2024 <br> By: LinkedIn Learning</p>
+</div>
+
+</div>
+
+
+<div align="left">
+  <span style="font-size: 28px; font-weight: bold; color: #0056b3;">Aparna Raghavendra Rao</span>  
+  <br>  
+  <span style="font-size: 22px; font-weight: bold;">Data Analyst</span>  
+</div>
+
+<img src="assets/images/headshot.jpg" alt="Aparna Raghavendra Rao" width="160px" style="border-radius: 10px; float: left; margin-right: 20px;">
+
+
+## 📊 My Data Dashboards 
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; align-items: flex-start; width: 100%;">
 
