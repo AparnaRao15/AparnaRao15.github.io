@@ -1,12 +1,26 @@
-# Data Analyst
+# <div align="left">
+  <span style="font-size: 28px; font-weight: bold; color: #0056b3;">Aparna Raghavendra Rao</span>  
+  <br>  
+  <span style="font-size: 22px; font-weight: bold;">Data Analyst</span>  
+</div>
 
-### Technical Skills: SQL, Python, R, Tableau, Microsoft Office, SAS, PowerBI, GSuite, Looker
+<img src="assets/images/headshot.jpg" alt="Aparna Raghavendra Rao" width="160px" style="border-radius: 10px; float: left; margin-right: 20px;">
 
-## Education
-- Post Master's Advanced Certificate, Data Science | Monroe University (_January 2024 - December 2024_)
-- Master of Science (MS), Business Analytics | University of Maryland, College Park (_August 2022 - December 2023_)
+## 🛠 Technical Skills  
+**SQL, Python, R, Tableau, Microsoft Office, SAS, Power BI, GSuite, Looker**  
 
-## Work Experience
+---
+
+## 🎓 Education  
+
+| Degree | Institution | Duration |
+|--------|------------|----------|
+| **Post Master’s Advanced Certificate, Data Science** | Monroe University | _Jan 2024 - Dec 2024_ |
+| **Master of Science (MS), Business Analytics** | University of Maryland, College Park | _Aug 2022 - Dec 2023_ |
+
+---
+
+## 💼 Work Experience  
 **Business Analyst at QL2 Software (Capstone Project in Business Analytics) (_August 2023 - November 2023_)**
 _College Park, Maryland, USA_
 - Analyzed airline industry trends by executing SQL queries on over 20 million records, transforming raw data into actionable insights. 
@@ -52,11 +66,11 @@ _February 2024 - April 2024_
 
 ## My Data Dashboards
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; align-items: flex-start; width: 100%;">
 
 <a href="https://public.tableau.com/app/profile/aparna.raghavendra.rao/viz/HRAnalyticsDashboard_16962817155430/Dashboard2" style="text-decoration: none; color: inherit;">
     <div style="width: 300px; text-align: center;">
-        <img src="images/HR Analytics Dashboard.jpeg" alt="Dashboard 1" style="width: 100%; border-radius: 10px;">
+        <img src="images/HR Analytics Dashboard.jpeg" alt="HR Analytics Dashboard" style="width: 100%; border-radius: 10px;">
         <h3>HR Analytics Dashboard</h3>
         <p>Explore insights on Genderwise employee attrition trends.</p>
     </div>
@@ -64,18 +78,30 @@ _February 2024 - April 2024_
 
 <a href="https://public.tableau.com/app/profile/aparna.raghavendra.rao/viz/CompaniesAcquisitionDashboard-Aparna/FinalDashboard" style="text-decoration: none; color: inherit;">
     <div style="width: 300px; text-align: center;">
-        <img src="images/Companies Acquisition Dashboard.jpeg" alt="Dashboard 2" style="width: 100%; border-radius: 10px;">
+        <img src="images/Companies Acquisition Dashboard.jpeg" alt="Companies Acquisition Dashboard" style="width: 100%; border-radius: 10px;">
         <h3>Companies Acquisition Dashboard</h3>
-        <p>Dashboard providing insights on companies acquisitions</p>
-    </div>
-</a>
-
-<a href="dashboards/dashboard3.html" style="text-decoration: none; color: inherit;">
-    <div style="width: 300px; text-align: center;">
-        <img src="assets/images/dashboard3.png" alt="Dashboard 3" style="width: 100%; border-radius: 10px;">
-        <h3>Beauty Product Recommender</h3>
-        <p>AI-powered recommendations based on user preferences.</p>
+        <p>Dashboard providing insights on company acquisitions.</p>
     </div>
 </a>
 
 </div>
+
+
+## 📜 Certifications  
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+<div style="width: 300px; text-align: center;">
+    <img src="images/PowerBI certificate.jpeg" alt="PowerBI Certificate" style="width: 100%; border-radius: 10px;">
+    <h3>Power BI Essential Training</h3>
+    <p>Issued: Feb 2025 <br> By: LinkedIn Learning</p>
+</div>
+
+<div style="width: 300px; text-align: center;">
+    <img src="images/Looker Certificate.jpeg" alt="Looker Studio Certificate" style="width: 100%; border-radius: 10px;">
+    <h3>Looker Studio for Beginners</h3>
+    <p>Issued: Dec 2024 <br> By: LinkedIn Learning</p>
+</div>
+
+</div>
+
