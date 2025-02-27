@@ -48,3 +48,34 @@ _February 2024 - April 2024_
 + Developed a predictive maternal health risk assessment application in R, using multinomial regression, decision trees, and K-Nearest Neighbors. Visualized data and derived insights using ggplot2.
 + Implemented proactive healthcare and health management features, issuing warnings for abnormal patient vitals within the application.
 ![Project Logo](images/Maternal Health.jpeg)
+
+
+## My Data Dashboards
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+<a href="dashboards/dashboard1.html" style="text-decoration: none; color: inherit;">
+    <div style="width: 300px; text-align: center;">
+        <img src="assets/images/dashboard1.png" alt="Dashboard 1" style="width: 100%; border-radius: 10px;">
+        <h3>Sales Analysis Dashboard</h3>
+        <p>Explore insights on sales trends and key performance metrics.</p>
+    </div>
+</a>
+
+<a href="dashboards/dashboard2.html" style="text-decoration: none; color: inherit;">
+    <div style="width: 300px; text-align: center;">
+        <img src="assets/images/dashboard2.png" alt="Dashboard 2" style="width: 100%; border-radius: 10px;">
+        <h3>Healthcare Risk Prediction</h3>
+        <p>Data-driven analysis for maternal health risk prediction.</p>
+    </div>
+</a>
+
+<a href="dashboards/dashboard3.html" style="text-decoration: none; color: inherit;">
+    <div style="width: 300px; text-align: center;">
+        <img src="assets/images/dashboard3.png" alt="Dashboard 3" style="width: 100%; border-radius: 10px;">
+        <h3>Beauty Product Recommender</h3>
+        <p>AI-powered recommendations based on user preferences.</p>
+    </div>
+</a>
+
+</div>
