@@ -54,19 +54,19 @@ _February 2024 - April 2024_
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
-<a href="dashboards/dashboard1.html" style="text-decoration: none; color: inherit;">
+<a href="https://public.tableau.com/app/profile/aparna.raghavendra.rao/viz/HRAnalyticsDashboard_16962817155430/Dashboard2" style="text-decoration: none; color: inherit;">
     <div style="width: 300px; text-align: center;">
-        <img src="assets/images/dashboard1.png" alt="Dashboard 1" style="width: 100%; border-radius: 10px;">
-        <h3>Sales Analysis Dashboard</h3>
-        <p>Explore insights on sales trends and key performance metrics.</p>
+        <img src="images/HR Analytics Dashboard.jpeg" alt="Dashboard 1" style="width: 100%; border-radius: 10px;">
+        <h3>HR Analytics Dashboard</h3>
+        <p>Explore insights on Genderwise employee attrition trends.</p>
     </div>
 </a>
 
-<a href="dashboards/dashboard2.html" style="text-decoration: none; color: inherit;">
+<a href="https://public.tableau.com/app/profile/aparna.raghavendra.rao/viz/CompaniesAcquisitionDashboard-Aparna/FinalDashboard" style="text-decoration: none; color: inherit;">
     <div style="width: 300px; text-align: center;">
-        <img src="assets/images/dashboard2.png" alt="Dashboard 2" style="width: 100%; border-radius: 10px;">
-        <h3>Healthcare Risk Prediction</h3>
-        <p>Data-driven analysis for maternal health risk prediction.</p>
+        <img src="images/Companies Acquisition Dashboard.jpeg" alt="Dashboard 2" style="width: 100%; border-radius: 10px;">
+        <h3>Companies Acquisition Dashboard</h3>
+        <p>Dashboard providing insights on companies acquisitions</p>
     </div>
 </a>
 
