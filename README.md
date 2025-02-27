@@ -6,25 +6,26 @@
 <!-- Profile Picture & Contact Info -->
 <div style="text-align: center; max-width: 200px;">
     <img src="images/aparna_headshot.jpeg" alt="Aparna Raghavendra Rao" style="width: 140px; border-radius: 10px;">
-</div>
-
+    
 ### 📌 Contact  
-**Email:** aparnaarao1996@gmail.com
-**Location:** Maryland, USA - Eastern Standard Time (EST) 
+**Email:** aparnarao1996@gmail.com  
+**Location:** Maryland, USA - Eastern Standard Time (EST)  
 **[🔗 View My LinkedIn Profile](https://www.linkedin.com/in/aparna-raghavendra/)**  
 **🟢 Online**  <!-- Change manually to 🔴 Offline when needed -->
+</div>
 
 <!-- Right Section with Skills, Education & Experience -->
 <div style="max-width: 600px;">
     
 ### 🛠 Technical Skills  
-SQL, Python, R, Tableau, Microsoft Office, SAS, PowerBI, GSuite, Looker 
+**SQL, Python, R, Tableau, Microsoft Office, SAS, PowerBI, GSuite, Looker**  
 
 ### 🎓 Education  
-| Degree | Institution | Duration |
-|--------|------------|----------|
-| **Post Master’s Advanced Certificate, Data Science** | Monroe University | _Jan 2024 - Dec 2024_ |
-| **Master of Science (MS), Business Analytics** | University of Maryland, College Park | _Aug 2022 - Dec 2023_ |
+**Post Master’s Advanced Certificate, Data Science**  
+📍 Monroe University _(Jan 2024 - Dec 2024)_  
+
+**Master of Science (MS), Business Analytics**  
+📍 University of Maryland, College Park _(Aug 2022 - Dec 2023)_  
 
 ### 💼 Work Experience  
 **Business Analyst at QL2 Software (Capstone Project in Business Analytics) (_Aug 2023 - Nov 2023_)**  
@@ -62,21 +63,21 @@ _August 2024 - December 2024_
 + Built a beauty product recommender system using Python's rule-based approach to filter through 1M+ records and match users with products based on skin type, ingredients, etc.  
 + Developed a dynamic interface on Streamlit, enabling flexible multi-brand and multi-ingredient selections.  
 
-![Project Logo](images/Beauty_product.jpeg)  
+![Project Logo](images/Beauty product.jpeg)  
 
 ### **Effectiveness of ML Algorithms in Detecting Mental Health** [🔗 GitHub Link](https://github.com/AparnaRao15/ML-Algorithms-and-Mental-Health-Detection)  
 _May 2024 - August 2024_  
 + Developed a predictive model for mental health issue detection using Python, leveraging decision trees, SVM, K-means clustering, and hierarchical clustering.  
 + Reviewed and synthesized insights from 6+ research papers to guide model selection and evaluation.  
 
-![Project Logo](images/Mental_health.jpeg)  
+![Project Logo](images/Mental health.jpeg)  
 
 ### **Maternal Health Risk Prediction** [🔗 GitHub Link](https://github.com/AparnaRao15/Maternal-Health-Risk-Prediction)  
 _February 2024 - April 2024_  
 + Developed a predictive maternal health risk assessment application in R, using multinomial regression, decision trees, and K-Nearest Neighbors. Visualized data and derived insights using ggplot2.  
 + Implemented proactive healthcare and health management features, issuing warnings for abnormal patient vitals within the application.  
 
-![Project Logo](images/Maternal_Health.jpeg)  
+![Project Logo](images/Maternal Health.jpeg)  
 
 ---
 
@@ -84,17 +85,21 @@ _February 2024 - April 2024_
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
-<div style="width: 300px; text-align: center;">
-    <img src="images/HR_Analytics_Dashboard.jpeg" alt="HR Analytics Dashboard" style="width: 100%; border-radius: 10px;">
-    <h3>HR Analytics Dashboard</h3>
-    <p>Insights on Genderwise employee attrition trends.</p>
-</div>
+<a href="https://public.tableau.com/app/profile/aparna.raghavendra.rao/viz/HRAnalyticsDashboard_16962817155430/Dashboard2" target="_blank" style="text-decoration: none; color: inherit;">
+    <div style="width: 300px; text-align: center;">
+        <img src="images/HR Analytics Dashboard.jpeg" alt="HR Analytics Dashboard" style="width: 100%; border-radius: 10px;">
+        <h3>HR Analytics Dashboard</h3>
+        <p>Insights on Genderwise employee attrition trends.</p>
+    </div>
+</a>
 
-<div style="width: 300px; text-align: center;">
-    <img src="images/Companies_Acquisition_Dashboard.jpeg" alt="Companies Acquisition Dashboard" style="width: 100%; border-radius: 10px;">
-    <h3>Companies Acquisition Dashboard</h3>
-    <p>Insights on company acquisitions and parent company trends.</p>
-</div>
+<a href="https://public.tableau.com/app/profile/aparna.raghavendra.rao/viz/CompaniesAcquisitionDashboard-Aparna/FinalDashboard" target="_blank" style="text-decoration: none; color: inherit;">
+    <div style="width: 300px; text-align: center;">
+        <img src="images/Companies Acquisition Dashboard.jpeg" alt="Companies Acquisition Dashboard" style="width: 100%; border-radius: 10px;">
+        <h3>Companies Acquisition Dashboard</h3>
+        <p>Insights on company acquisitions and parent company trends.</p>
+    </div>
+</a>
 
 </div>
 
@@ -105,13 +110,13 @@ _February 2024 - April 2024_
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
 <div style="width: 300px; text-align: center;">
-    <img src="images/PowerBI_Certificate.jpeg" alt="PowerBI Certificate" style="width: 100%; border-radius: 10px;">
+    <img src="images/PowerBI certificate.jpeg" alt="PowerBI Certificate" style="width: 100%; border-radius: 10px;">
     <h3>Power BI Essential Training</h3>
     <p>Issued: Feb 2025 <br> By: LinkedIn Learning</p>
 </div>
 
 <div style="width: 300px; text-align: center;">
-    <img src="images/Looker_Certificate.jpeg" alt="Looker Studio Certificate" style="width: 100%; border-radius: 10px;">
+    <img src="images/Looker Certificate.jpeg" alt="Looker Studio Certificate" style="width: 100%; border-radius: 10px;">
     <h3>Looker Studio for Beginners</h3>
     <p>Issued: Dec 2024 <br> By: LinkedIn Learning</p>
 </div>
