@@ -1,22 +1,21 @@
 <h1 align="left">Hi 👋 I'm Aparna</h1>
 
-###
+
 
 <p align="left">I'm an aspiring Data Analyst with an MS in Business Analytics & Advanced Certificate in Data Science</p>
 
-###
+
 
 <h2 align="left">About me</h2>
 
-###
+
 
 <p align="left">💡 Currently working on:<br>- Enhancing my Tableau dashboards & GitHub portfolio<br>- Improving Python & SQL automation for data analysis<br><br>🤝 Looking to collaborate on:<br>- Data visualization & analytics projects<br>- Open-source data science & business analytics<br><br>📌 Technical Skills:<br>- Data Analysis: Python, R, SQL, Excel, Power BI, Tableau, Looker<br>- Machine Learning: Scikit-learn, Pandas, Numpy<br>- Web Development: Streamlit, Jupyter Notebooks<br><br>📖 Currently learning:<br>- Advanced SQL optimizations & data modeling<br>- Time series forecasting & predictive analytics<br><br>💬 Ask me about:<br>- How I built my Beauty Product Recommender System<br>- Data-driven storytelling & dashboard design<br><br>⚡ Fun fact:<br>I can analyze millions of data points in Python but still struggle to pick a Netflix show in under 10 minutes! 🎬📊</p>
 
-###
+
 
 <h2 align="left">Tech Stack</h2>
 
-###
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
@@ -44,7 +43,23 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
 </div>
 
-###
+
+
+<div align="left">
+</div>
+
+
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/aparna-raghavendra/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+  <a href="aparnaarao1996@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  </a>
+</div>
+
+
 
 ## 🎓 Education  
 **Post Master’s Advanced Certificate, Data Science**  
