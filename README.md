@@ -8,7 +8,7 @@
 
 
 
-<p align="left">💡 Currently working on:<br>- Enhancing my Tableau dashboards & GitHub portfolio<br>- Improving Python & SQL automation for data analysis<br><br>🤝 Looking to collaborate on:<br>- Data visualization & analytics projects<br>- Open-source data science & business analytics<br><br>📌 Technical Skills:<br>- Data Analysis: Python, R, SQL, Excel, Power BI, Tableau, Looker<br>- Machine Learning: Scikit-learn, Pandas, Numpy<br>- Web Development: Streamlit, Jupyter Notebooks<br><br>📖 Currently learning:<br>- Advanced SQL optimizations & data modeling<br>- Time series forecasting & predictive analytics<br><br>💬 Ask me about:<br>- How I built my Beauty Product Recommender System<br>- Data-driven storytelling & dashboard design<br><br>⚡ Fun fact:<br>I can analyze millions of data points in Python but still struggle to pick a Netflix show in under 10 minutes! 🎬📊</p>
+<p align="left">💡 <b>Currently working on:</b><br>- Enhancing my Tableau dashboards & GitHub portfolio<br>- Improving Python & SQL automation for data analysis<br><br>🤝 <b>Looking to collaborate on:</b><br>- Data visualization & analytics projects<br>- Open-source data science & business analytics<br><br>📌 <b>Technical Skills:</b><br>- <b>Data Analysis:</b> Python, R, SQL, Excel, Power BI, Tableau, Looker<br>- <b>Machine Learning:</b> Scikit-learn, Pandas, Numpy<br>- <b>Web Development:</b> Streamlit, Jupyter Notebooks<br><br>📖 <b>Currently learning:</b><br>- Advanced SQL optimizations & data modeling<br>- Time series forecasting & predictive analytics<br><br>💬 <b>Ask me about:</b><br>- How I built my Beauty Product Recommender System<br>- Data-driven storytelling & dashboard design<br><br>⚡ <b>Fun fact:</b><br>I can analyze millions of data points in Python but still struggle to pick a Netflix show in under 10 minutes! 🎬📊</p>
 
 
 
@@ -41,7 +41,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
 </div>
 
-
+<br>
 ## Socials
 <div align="left">
   <a href="https://www.linkedin.com/in/aparna-raghavendra/" target="_blank">
@@ -52,7 +52,7 @@
   </a>
 </div>
 
-
+<br>
 ## 🎓 Education  
 **Post Master’s Advanced Certificate, Data Science**  
 📍 Monroe University _(Jan 2024 - Dec 2024)_  
