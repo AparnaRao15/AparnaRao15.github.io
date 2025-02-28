@@ -18,10 +18,10 @@
   ├── Open-source data science & business analytics<br><br>
 
   📌 <b>Technical Skills:</b><br>
-  <b>• Data Analysis (1+ years):</b> SQL, Power BI, Python, Looker, SAS<br>
-  <b>• Machine Learning (1+ years):</b> Scikit-learn, Pandas, Numpy<br>
+  <b>• Data Analysis (2+ years):</b> SQL, Power BI, Python, Looker, SAS<br>
+  <b>• Machine Learning (2+ years):</b> Scikit-learn, Pandas, Numpy<br>
   <b>• Data Visualization (2+ years):</b> Tableau, Power BI, Looker<br>
-  <b>• Web Development (1+ year):</b> Streamlit, Jupyter Notebooks<br>
+  <b>• Web Development (2+ year):</b> Streamlit, Jupyter Notebooks<br>
   <b>• Business Tools (4+ years):</b> Google Suite (Docs, Slides, Sheets, Forms)<br>
   <b>• Microsoft Office (5+ years):</b> Excel, PowerPoint<br><br>
 
@@ -60,18 +60,20 @@
   <br><br>
 
   <!-- Additional tools with image links -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Tableau_Logo.png/600px-Tableau_Logo.png" height="40" alt="Tableau logo" />
+<div align="left">
+  <img src="images/Tableau Logo.png" height="40" alt="Tableau logo" />
   <img width="12" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Microsoft_Excel_2013-2019_logo.svg/512px-Microsoft_Excel_2013-2019_logo.svg.png" height="40" alt="Excel logo" />
+  <img src="images/Excel logo.png" height="40" alt="Excel logo" />
   <img width="12" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Power_BI_logo.svg/512px-Power_BI_logo.svg.png" height="40" alt="Power BI logo" />
+  <img src="images/PowerBI logo.png" height="40" alt="Power BI logo" />
   <img width="12" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Microsoft_PowerPoint_2013-2019_logo.svg/512px-Microsoft_PowerPoint_2013-2019_logo.svg.png" height="40" alt="PowerPoint logo" />
+  <img src="images/ppt logo.png" height="40" alt="PowerPoint logo" />
   <img width="12" />
-  <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/SAS_Institute_logo.svg" height="40" alt="SAS logo" />
+  <img src="images/SAS logo.png" height="40" alt="SAS logo" />
   <img width="12" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Google_Workspace_Logo.svg/512px-Google_Workspace_Logo.svg.png" height="40" alt="Google Suite logo" />
+  <img src="images/Gsuite-logo.png" height="40" alt="Google Suite logo" />
 </div>
+
 
 <br>
 ## 🎓 Education  
