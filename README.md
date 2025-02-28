@@ -8,48 +8,69 @@
 
 
 
-<p align="left">💡 <b>Currently working on:</b><br>- Enhancing my Tableau dashboards & GitHub portfolio<br>- Improving Python & SQL automation for data analysis<br><br>🤝 <b>Looking to collaborate on:</b><br>- Data visualization & analytics projects<br>- Open-source data science & business analytics<br><br>📌 <b>Technical Skills:</b><br>- <b>Data Analysis:</b> Python, R, SQL, Excel, Power BI, Tableau, Looker<br>- <b>Machine Learning:</b> Scikit-learn, Pandas, Numpy<br>- <b>Web Development:</b> Streamlit, Jupyter Notebooks<br><br>📖 <b>Currently learning:</b><br>- Advanced SQL optimizations & data modeling<br>- Time series forecasting & predictive analytics<br><br>💬 <b>Ask me about:</b><br>- How I built my Beauty Product Recommender System<br>- Data-driven storytelling & dashboard design<br><br>⚡ <b>Fun fact:</b><br>I can analyze millions of data points in Python but still struggle to pick a Netflix show in under 10 minutes! 🎬📊</p>
+<p align="left">
+  💡 <b>Currently Working On:</b><br>
+  ├── Enhancing my Tableau dashboards & GitHub portfolio<br>
+  ├── Improving Python & SQL automation for data analysis<br><br>
 
+  🤝 <b>Looking to Collaborate On:</b><br>
+  ├── Data visualization & analytics projects<br>
+  ├── Open-source data science & business analytics<br><br>
+
+  📌 <b>Technical Skills:</b><br>
+  <b>• Data Analysis (1+ years):</b> SQL, Power BI, Python, Looker, SAS<br>
+  <b>• Machine Learning (1+ years):</b> Scikit-learn, Pandas, Numpy<br>
+  <b>• Data Visualization (2+ years):</b> Tableau, Power BI, Looker<br>
+  <b>• Web Development (1+ year):</b> Streamlit, Jupyter Notebooks<br>
+  <b>• Business Tools (4+ years):</b> Google Suite (Docs, Slides, Sheets, Forms)<br>
+  <b>• Microsoft Office (5+ years):</b> Excel, PowerPoint<br><br>
+
+  📖 <b>Currently Learning:</b><br>
+  ├── Advanced SQL optimizations & data modeling<br>
+  ├── Time series forecasting & predictive analytics<br><br>
+
+  💬 <b>Ask Me About:</b><br>
+  ├── How I built my Beauty Product Recommender System<br>
+  ├── Data-driven storytelling & dashboard design<br><br>
+
+  ⚡ <b>Fun Fact:</b><br>
+  ├── I can analyze millions of data points in Python but still struggle to pick a Netflix show in under 10 minutes! 🎬📊
+</p>
 
 
 <h2 align="left">Tech Stack</h2>
 
-
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" height="40" alt="rstudio logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-</div>
+  <br><br>
 
-<br>
-## Socials
-<div align="left">
-  <a href="https://www.linkedin.com/in/aparna-raghavendra/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="aparnaarao1996@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
-  </a>
+  <!-- Additional tools with image links -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Tableau_Logo.png/600px-Tableau_Logo.png" height="40" alt="Tableau logo" />
+  <img width="12" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Microsoft_Excel_2013-2019_logo.svg/512px-Microsoft_Excel_2013-2019_logo.svg.png" height="40" alt="Excel logo" />
+  <img width="12" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Power_BI_logo.svg/512px-Power_BI_logo.svg.png" height="40" alt="Power BI logo" />
+  <img width="12" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Microsoft_PowerPoint_2013-2019_logo.svg/512px-Microsoft_PowerPoint_2013-2019_logo.svg.png" height="40" alt="PowerPoint logo" />
+  <img width="12" />
+  <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/SAS_Institute_logo.svg" height="40" alt="SAS logo" />
+  <img width="12" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Google_Workspace_Logo.svg/512px-Google_Workspace_Logo.svg.png" height="40" alt="Google Suite logo" />
 </div>
 
 <br>
@@ -87,7 +108,7 @@
 
 ## 🚀 Projects  
 
-### **Beauty Product Recommender System**  
+### **Beauty Product Recommender System** [🔗 GitHub Link](https://github.com/AparnaRao15/Beauty-Product-Recommender-System) 
 _August 2024 - December 2024_  
 + Built a beauty product recommender system using Python's rule-based approach to filter through 1M+ records and match users with products based on skin type, ingredients, etc.  
 + Developed a dynamic interface on Streamlit, enabling flexible multi-brand and multi-ingredient selections.  
