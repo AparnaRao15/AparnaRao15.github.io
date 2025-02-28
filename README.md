@@ -1,12 +1,6 @@
 <h1 align="left">Hi 👋 I'm Aparna</h1>
 
-
-
-
-
 <h2 align="left">About me</h2>
-
-
 
 <p align="left">
   💡 <b>Currently Working On:</b><br>
@@ -21,7 +15,7 @@
   <b>• Data Analysis (2+ years):</b> SQL, Power BI, Python, Looker, SAS<br>
   <b>• Machine Learning (2+ years):</b> Scikit-learn, Pandas, Numpy<br>
   <b>• Data Visualization (2+ years):</b> Tableau, Power BI, Looker<br>
-  <b>• Web Development (2+ year):</b> Streamlit, Jupyter Notebooks<br>
+  <b>• Web Development (2+ years):</b> Streamlit, Jupyter Notebooks<br>
   <b>• Business Tools (4+ years):</b> Google Suite (Docs, Slides, Sheets, Forms)<br>
   <b>• Microsoft Office (5+ years):</b> Excel, PowerPoint<br><br>
 
@@ -37,39 +31,27 @@
   ├── I can analyze millions of data points in Python but still struggle to pick a Netflix show in under 10 minutes! 🎬📊
 </p>
 
+---
 
-<h2 align="left">Tech Stack</h2>
+## 🚀 Tech Stack
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo" />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r logo" />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo" />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo" />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo" />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo" />
-  <img width="12" />
   <br><br>
 
-  <!-- Additional tools with image links -->
+  <!-- Additional tools -->
   <img src="images/Tableau Logo.png" height="40" alt="Tableau logo" />
-  <img width="12" />
   <img src="images/Excel logo.png" height="40" alt="Excel logo" />
-  <img width="12" />
   <img src="images/PowerBI logo.png" height="40" alt="Power BI logo" />
-  <img width="12" />
   <img src="images/ppt logo.png" height="40" alt="PowerPoint logo" />
-  <img width="12" />
   <img src="images/SAS logo.png" height="40" alt="SAS logo" />
-  <img width="12" />
   <img src="images/Gsuite-logo.png" height="40" alt="Google Suite logo" />
 </div>
 
