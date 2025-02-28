@@ -75,7 +75,6 @@
 
 ---
 
-<br>
 ## 🎓 Education  
 **Post Master’s Advanced Certificate, Data Science**  
 📍 Monroe University _(Jan 2024 - Dec 2024)_  
