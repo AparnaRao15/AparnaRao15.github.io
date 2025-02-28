@@ -60,7 +60,6 @@
   <br><br>
 
   <!-- Additional tools with image links -->
-<div align="left">
   <img src="images/Tableau Logo.png" height="40" alt="Tableau logo" />
   <img width="12" />
   <img src="images/Excel logo.png" height="40" alt="Excel logo" />
@@ -74,6 +73,7 @@
   <img src="images/Gsuite-logo.png" height="40" alt="Google Suite logo" />
 </div>
 
+---
 
 <br>
 ## 🎓 Education  
@@ -82,6 +82,8 @@
 
 **Master of Science (MS), Business Analytics**  
 📍 University of Maryland, College Park _(Aug 2022 - Dec 2023)_  
+
+---
 
 ## 💼 Work Experience  
 **Business Analyst at QL2 Software (Capstone Project in Business Analytics) (_Aug 2023 - Nov 2023_)**  
@@ -106,6 +108,7 @@
 - Optimized cost analysis processes by engineering spreadsheets to evaluate raw material costs, reducing processing time by 83%.  
 - Ensured export documentation accuracy and compliance, partnering with clients to resolve discrepancies and enhance processes.  
 **Key Skills:** Market Analysis, Excel, R, Process Optimization, Export Documentation, Cross-Functional Collaboration  
+
 ---
 
 ## 🚀 Projects  
