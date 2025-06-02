@@ -4,8 +4,9 @@
 
 <p align="left">
   💡 <b>Currently Working On:</b><br>
-  ├── Enhancing my Tableau dashboards & GitHub portfolio<br>
-  ├── Improving Python & SQL automation for data analysis<br><br>
+  ├── Supporting UX and content evaluations for a new company website<br>
+  └── Designing internal product documentation for stakeholder engagement
+</p>
 
   🤝 <b>Looking to Collaborate On:</b><br>
   ├── Data visualization & analytics projects<br>
@@ -18,10 +19,6 @@
   <b>• Web Development (2+ years):</b> Streamlit, Jupyter Notebooks<br>
   <b>• Business Tools (4+ years):</b> Google Suite (Docs, Slides, Sheets, Forms)<br>
   <b>• Microsoft Office (5+ years):</b> Excel, PowerPoint<br><br>
-
-  📖 <b>Currently Learning:</b><br>
-  ├── Advanced SQL optimizations & data modeling<br>
-  ├── Time series forecasting & predictive analytics<br><br>
 
   💬 <b>Ask Me About:</b><br>
   ├── How I built my Beauty Product Recommender System<br>
@@ -67,6 +64,13 @@
 ---
 
 ## 💼 Work Experience  
+**Data Analyst at Advance Pet Product (_Mar 2025 - Present_)**  
+📍 Silver Spring, Maryland, USA (Remote)  
+- Collaborating with cross-functional teams on a new company website currently in development, offering data-informed feedback on structure, content flow, and user experience.  
+- Conducting structured evaluations of UX and navigation to support usability and brand alignment.  
+- Translated a large product catalog into a visually clear, stakeholder-ready slide deck, enhancing internal communication and product visibility.
+**Key Skills:** UX Evaluation, Stakeholder Communication, PowerPoint, Content Structuring, Product Cataloging, Visual Storytelling, Internal Documentation
+  
 **Business Analyst at QL2 Software (Capstone Project in Business Analytics) (_Aug 2023 - Nov 2023_)**  
 📍 College Park, Maryland, USA  
 - Analyzed airline industry trends by executing SQL queries on over 20 million records, transforming raw data into actionable insights.  
