@@ -69,6 +69,7 @@
 - Collaborating with cross-functional teams on a new company website currently in development, offering data-informed feedback on structure, content flow, and user experience.  
 - Conducting structured evaluations of UX and navigation to support usability and brand alignment.  
 - Translated a large product catalog into a visually clear, stakeholder-ready slide deck, enhancing internal communication and product visibility.
+
 **Key Skills:** UX Evaluation, Stakeholder Communication, PowerPoint, Content Structuring, Product Cataloging, Visual Storytelling, Internal Documentation
   
 **Business Analyst at QL2 Software (Capstone Project in Business Analytics) (_Aug 2023 - Nov 2023_)**  
@@ -76,6 +77,7 @@
 - Analyzed airline industry trends by executing SQL queries on over 20 million records, transforming raw data into actionable insights.  
 - Automated data cleaning processes by developing a Python script, reducing processing time by 70% and ensuring data accuracy.  
 - Created interactive Tableau dashboards to visualize market trends and competitive landscapes, enabling data-driven strategic decision-making.  
+
 **Key Skills:** SQL, Data Cleaning, Automation, Python, Tableau, Market Analysis  
 
 **Data Analyst Intern at Shea Radiance (Maryland Global Consulting) (_June 2023 - Aug 2023_)**  
@@ -84,6 +86,7 @@
 - Designed and developed interactive Tableau dashboards to visualize eight critical strategic growth and operational efficiency areas.  
 - Implemented an inventory management system that optimized stock tracking and forecasting, reducing stockouts and surplus inventory.  
 - Collaborated with clients to identify pain points, translated business needs into technical solutions, and recommended best practices to enhance operational workflows.  
+
 **Key Skills:** Data Analysis, Excel, Tableau, Strategic Decision Making, Inventory Management  
 
 **Management Trainee at Allanasons Private Limited (_December 2020 - November 2021_)**  
@@ -92,6 +95,7 @@
 - Streamlined interdepartmental workflows by creating an Excel tracker, boosting collaboration and operational planning.  
 - Optimized cost analysis processes by engineering spreadsheets to evaluate raw material costs, reducing processing time by 83%.  
 - Ensured export documentation accuracy and compliance, partnering with clients to resolve discrepancies and enhance processes.  
+
 **Key Skills:** Market Analysis, Excel, R, Process Optimization, Export Documentation, Cross-Functional Collaboration  
 
 ---
