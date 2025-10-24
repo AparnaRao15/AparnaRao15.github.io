@@ -5,18 +5,19 @@
   <title>Data Garden 🌼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 24px; background:#f7faf9; }
-    .wrap { max-width: 960px; margin: 0 auto; }
-    h1 { margin: 0 0 8px; }
-    .sub { color:#555; margin-bottom:16px; }
-    .panel { background:#fff; border:1px solid #e5e7eb; border-radius:16px; padding:16px; margin-bottom:16px; }
+    body { font-family: system-ui,-apple-system,Segoe UI,Roboto,sans-serif; margin:0; padding:24px; background:#f7faf9 }
+    .wrap { max-width:960px; margin:0 auto }
+    h1 { margin:0 0 8px }
+    .sub { color:#555; margin-bottom:16px }
+    .panel { background:#fff; border:1px solid #e5e7eb; border-radius:16px; padding:16px; margin-bottom:16px }
     #garden { width:100%; height:560px; border:1px solid #e5e7eb; background:linear-gradient(#dff6ff,#e8fff3 40%,#e6f7e9 60%); border-radius:16px; position:relative; overflow:hidden }
     .meadow { position:absolute; left:0; right:0; bottom:0; height:35%; background:repeating-linear-gradient(0deg,#bde5c8,#bde5c8 8px,#c8edcf 8px,#c8edcf 16px) }
     .tooltip { position:fixed; pointer-events:none; background:#111; color:#fff; padding:6px 8px; border-radius:8px; font-size:12px; opacity:0; transform:translateY(-6px); transition:opacity .12s ease }
-    .legend { display:flex; flex-wrap:wrap; gap:8px; font-size:12px; }
-    .badge { display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid #e5e7eb; border-radius:999px; background:#fff; }
-    .dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
-    a.button { display:inline-block; padding:10px 14px; background:#111; color:#fff; border-radius:12px; text-decoration:none; }
+    .legend { display:flex; flex-wrap:wrap; gap:8px; font-size:12px }
+    .badge { display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid #e5e7eb; border-radius:999px; background:#fff }
+    .dot { width:10px; height:10px; border-radius:50%; display:inline-block }
+    a.button { display:inline-block; padding:10px 14px; background:#111; color:#fff; border-radius:12px; text-decoration:none }
+    .debug { font-size:11px; color:#777; margin-top:8px }
   </style>
 </head>
 <body>
@@ -24,13 +25,14 @@
   <h1>Data Garden 🌼</h1>
   <p class="sub">Plant a data point → watch the garden grow. Size = minutes/day learning, color = favorite tool, height = self-rated skill.</p>
 
- <div class="panel">
-  <!-- Button goes straight to your Google Form -->
-  <a class="button"
-     href="https://docs.google.com/forms/d/e/1FAIpQLSchoCnZwWKI7XzsMgTr1FESyJajLRIgOgVBQZJDn3dNyahrxw/viewform"
-     target="_blank" rel="noopener">Plant your flower</a>
-  <span style="margin-left:8px;font-size:12px;color:#666">opens a short form (10s)</span>
-</div>
+  <div class="panel">
+    <!-- HARD-CODED form link so it never becomes /FORM_URL -->
+    <a class="button" id="plant-btn"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSchoCnZwWKI7XzsMgTr1FESyJajLRIgOgVBQZJDn3dNyahrxw/viewform"
+       target="_blank" rel="noopener">Plant your flower</a>
+    <span style="margin-left:8px;font-size:12px;color:#666">opens a short form (10s)</span>
+    <div class="debug" id="debug"></div>
+  </div>
 
   <div id="garden" class="panel">
     <svg id="svg" viewBox="0 0 960 560" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;border-radius:12px"></svg>
@@ -43,23 +45,24 @@
   </div>
 
   <div class="panel" style="font-size:13px;color:#333">
-    <strong>How it works:</strong> Google Form → Google Sheet → (File ▸ Share ▸ Publish to web ▸ CSV). This page fetches that CSV and turns each row into a flower.
+    <strong>How it works:</strong> Google Form → Google Sheet → Publish to web (CSV). This page fetches that CSV and turns each row into a flower.
   </div>
 </div>
 
 <div class="tooltip" id="tooltip"></div>
 
-<!-- 2) PapaParse for robust CSV parsing -->
+<!-- PapaParse for robust CSV parsing -->
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 <script>
-/** ======== CONFIG: set these two ======== **/
+/** ======== CONFIG: set this to your published CSV ======== **/
 const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQZEu61YnxeU17XTECpbKuVE096N4aVDqB2wARiB8HlMzQwsP4iwR7BtG5iqHaHuJOKNNr7aJAuaI0Z/pub?output=csv";
-const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSchoCnZwWKI7XzsMgTr1FESyJajLRIgOgVBQZJDn3dNyahrxw/viewform"; // your form link
-const TOOL_COLUMN = "favorite_tool";
-const MINUTES_COLUMN = "minute_per_day";
-const SKILL_COLUMN = "skill_self_rating";
-const NAME_COLUMN  = "name_or_alias";
-/** ======================================= **/
+/** ======================================================== **/
+
+// Column ids (must match your sheet headers exactly)
+const TOOL_COLUMN    = "favorite_tool";
+const MINUTES_COLUMN = "minute_per_day";  // note: singular
+const SKILL_COLUMN   = "skill_self_rating";
+const NAME_COLUMN    = "name_or_alias";
 
 // simple color hash for tool -> HSL
 function colorFor(str) {
@@ -71,6 +74,7 @@ function colorFor(str) {
 const svg = document.getElementById("svg");
 const legend = document.getElementById("legend");
 const tip = document.getElementById("tooltip");
+const debug = document.getElementById("debug");
 const W = 960, H = 560, PAD = 24;
 
 function scaleLinear([d0,d1],[r0,r1]) {
@@ -79,6 +83,12 @@ function scaleLinear([d0,d1],[r0,r1]) {
 }
 
 function render(data) {
+  // KPIs/debug
+  if (debug) {
+    const btn = document.getElementById("plant-btn");
+    debug.textContent = `Loaded ${data.length} row(s) • Button href: ${btn ? btn.href : "N/A"}`;
+  }
+
   // coerce + clamp
   const minutes = data.map(d => +d[MINUTES_COLUMN] || 0);
   const skill   = data.map(d => +d[SKILL_COLUMN]   || 0);
@@ -99,12 +109,10 @@ function render(data) {
   // axes (light)
   const ax = document.createElementNS("http://www.w3.org/2000/svg","g");
   ax.setAttribute("stroke","#e5e7eb"); ax.setAttribute("stroke-width","1");
-  // x axis
   const xAxis = document.createElementNS("http://www.w3.org/2000/svg","line");
   xAxis.setAttribute("x1", PAD); xAxis.setAttribute("y1", H-PAD-140);
   xAxis.setAttribute("x2", W-PAD); xAxis.setAttribute("y2", H-PAD-140);
   ax.appendChild(xAxis);
-  // y axis
   const yAxis = document.createElementNS("http://www.w3.org/2000/svg","line");
   yAxis.setAttribute("x1", PAD); yAxis.setAttribute("y1", H-PAD-140);
   yAxis.setAttribute("x2", PAD); yAxis.setAttribute("y2", PAD);
@@ -112,7 +120,7 @@ function render(data) {
   svg.appendChild(ax);
 
   // dots (flowers: stem + bloom)
-  data.forEach((d,i) => {
+  data.forEach(d => {
     const tool = (d[TOOL_COLUMN] || "Unknown").trim();
     const cx = x(+d[MINUTES_COLUMN] || 0);
     const cy = y(+d[SKILL_COLUMN]   || 0);
@@ -182,6 +190,208 @@ async function loadAndRender() {
     render(parsed.data);
   } catch (e) {
     console.error(e);
+    if (debug) debug.textContent = "Failed to load CSV. Is the link public?";
+  }
+}
+
+loadAndRender();
+setInterval(loadAndRender, 60000); // refresh every 60s
+</script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Data Garden 🌼</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui,-apple-system,Segoe UI,Roboto,sans-serif; margin:0; padding:24px; background:#f7faf9 }
+    .wrap { max-width:960px; margin:0 auto }
+    h1 { margin:0 0 8px }
+    .sub { color:#555; margin-bottom:16px }
+    .panel { background:#fff; border:1px solid #e5e7eb; border-radius:16px; padding:16px; margin-bottom:16px }
+    #garden { width:100%; height:560px; border:1px solid #e5e7eb; background:linear-gradient(#dff6ff,#e8fff3 40%,#e6f7e9 60%); border-radius:16px; position:relative; overflow:hidden }
+    .meadow { position:absolute; left:0; right:0; bottom:0; height:35%; background:repeating-linear-gradient(0deg,#bde5c8,#bde5c8 8px,#c8edcf 8px,#c8edcf 16px) }
+    .tooltip { position:fixed; pointer-events:none; background:#111; color:#fff; padding:6px 8px; border-radius:8px; font-size:12px; opacity:0; transform:translateY(-6px); transition:opacity .12s ease }
+    .legend { display:flex; flex-wrap:wrap; gap:8px; font-size:12px }
+    .badge { display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid #e5e7eb; border-radius:999px; background:#fff }
+    .dot { width:10px; height:10px; border-radius:50%; display:inline-block }
+    a.button { display:inline-block; padding:10px 14px; background:#111; color:#fff; border-radius:12px; text-decoration:none }
+    .debug { font-size:11px; color:#777; margin-top:8px }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Data Garden 🌼</h1>
+  <p class="sub">Plant a data point → watch the garden grow. Size = minutes/day learning, color = favorite tool, height = self-rated skill.</p>
+
+  <div class="panel">
+    <!-- HARD-CODED form link so it never becomes /FORM_URL -->
+    <a class="button" id="plant-btn"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSchoCnZwWKI7XzsMgTr1FESyJajLRIgOgVBQZJDn3dNyahrxw/viewform"
+       target="_blank" rel="noopener">Plant your flower</a>
+    <span style="margin-left:8px;font-size:12px;color:#666">opens a short form (10s)</span>
+    <div class="debug" id="debug"></div>
+  </div>
+
+  <div id="garden" class="panel">
+    <svg id="svg" viewBox="0 0 960 560" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;border-radius:12px"></svg>
+    <div class="meadow"></div>
+  </div>
+
+  <div class="panel">
+    <div class="legend" id="legend"></div>
+    <p style="font-size:12px;color:#666;margin-top:8px">Tip: hover a flower to see the details. Data auto-refreshes every 60s.</p>
+  </div>
+
+  <div class="panel" style="font-size:13px;color:#333">
+    <strong>How it works:</strong> Google Form → Google Sheet → Publish to web (CSV). This page fetches that CSV and turns each row into a flower.
+  </div>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<!-- PapaParse for robust CSV parsing -->
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script>
+/** ======== CONFIG: set this to your published CSV ======== **/
+const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQZEu61YnxeU17XTECpbKuVE096N4aVDqB2wARiB8HlMzQwsP4iwR7BtG5iqHaHuJOKNNr7aJAuaI0Z/pub?output=csv";
+/** ======================================================== **/
+
+// Column ids (must match your sheet headers exactly)
+const TOOL_COLUMN    = "favorite_tool";
+const MINUTES_COLUMN = "minute_per_day";  // note: singular
+const SKILL_COLUMN   = "skill_self_rating";
+const NAME_COLUMN    = "name_or_alias";
+
+// simple color hash for tool -> HSL
+function colorFor(str) {
+  let h = 0;
+  for (let i=0;i<str.length;i++) h = (h*31 + str.charCodeAt(i)) >>> 0;
+  return `hsl(${h % 360},70%,45%)`;
+}
+
+const svg = document.getElementById("svg");
+const legend = document.getElementById("legend");
+const tip = document.getElementById("tooltip");
+const debug = document.getElementById("debug");
+const W = 960, H = 560, PAD = 24;
+
+function scaleLinear([d0,d1],[r0,r1]) {
+  const m = (r1-r0)/(d1-d0 || 1);
+  return (x)=> r0 + (x-d0)*m;
+}
+
+function render(data) {
+  // KPIs/debug
+  if (debug) {
+    const btn = document.getElementById("plant-btn");
+    debug.textContent = `Loaded ${data.length} row(s) • Button href: ${btn ? btn.href : "N/A"}`;
+  }
+
+  // coerce + clamp
+  const minutes = data.map(d => +d[MINUTES_COLUMN] || 0);
+  const skill   = data.map(d => +d[SKILL_COLUMN]   || 0);
+  const minMin = 0, maxMin = Math.max(60, Math.min(240, Math.max(...minutes, 60)));
+  const minSkill = 0, maxSkill = Math.max(5, Math.max(...skill, 5));
+
+  const x = scaleLinear([minMin, maxMin],[PAD, W-PAD]);
+  const y = scaleLinear([minSkill, maxSkill],[H-PAD-140, PAD]); // keep above meadow
+  const r = (m)=> Math.max(6, Math.min(36, (m/ maxMin) * 36));  // size by minutes
+
+  // compute distinct tools
+  const tools = Array.from(new Set(data.map(d => (d[TOOL_COLUMN] || "Unknown").trim()))).slice(0,12);
+
+  // clear
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+  legend.innerHTML = "";
+
+  // axes (light)
+  const ax = document.createElementNS("http://www.w3.org/2000/svg","g");
+  ax.setAttribute("stroke","#e5e7eb"); ax.setAttribute("stroke-width","1");
+  const xAxis = document.createElementNS("http://www.w3.org/2000/svg","line");
+  xAxis.setAttribute("x1", PAD); xAxis.setAttribute("y1", H-PAD-140);
+  xAxis.setAttribute("x2", W-PAD); xAxis.setAttribute("y2", H-PAD-140);
+  ax.appendChild(xAxis);
+  const yAxis = document.createElementNS("http://www.w3.org/2000/svg","line");
+  yAxis.setAttribute("x1", PAD); yAxis.setAttribute("y1", H-PAD-140);
+  yAxis.setAttribute("x2", PAD); yAxis.setAttribute("y2", PAD);
+  ax.appendChild(yAxis);
+  svg.appendChild(ax);
+
+  // dots (flowers: stem + bloom)
+  data.forEach(d => {
+    const tool = (d[TOOL_COLUMN] || "Unknown").trim();
+    const cx = x(+d[MINUTES_COLUMN] || 0);
+    const cy = y(+d[SKILL_COLUMN]   || 0);
+    const rad = r(+d[MINUTES_COLUMN] || 0);
+    const col = colorFor(tool);
+
+    // stem
+    const stem = document.createElementNS("http://www.w3.org/2000/svg","line");
+    stem.setAttribute("x1", cx);
+    stem.setAttribute("x2", cx);
+    stem.setAttribute("y1", H-PAD-40);
+    stem.setAttribute("y2", cy);
+    stem.setAttribute("stroke", "#6bbf87");
+    stem.setAttribute("stroke-width", "2");
+    svg.appendChild(stem);
+
+    // bloom
+    const g = document.createElementNS("http://www.w3.org/2000/svg","g");
+    const c = document.createElementNS("http://www.w3.org/2000/svg","circle");
+    c.setAttribute("cx", cx);
+    c.setAttribute("cy", cy);
+    c.setAttribute("r", rad);
+    c.setAttribute("fill", col);
+    c.setAttribute("fill-opacity","0.9");
+    c.setAttribute("stroke","#ffffff");
+    c.setAttribute("stroke-width","2");
+    g.appendChild(c);
+
+    // center
+    const k = document.createElementNS("http://www.w3.org/2000/svg","circle");
+    k.setAttribute("cx", cx);
+    k.setAttribute("cy", cy);
+    k.setAttribute("r", Math.max(3, rad*0.35));
+    k.setAttribute("fill", "rgba(0,0,0,.15)");
+    g.appendChild(k);
+
+    g.addEventListener("mousemove", (ev) => {
+      const alias = (d[NAME_COLUMN] || "").trim();
+      tip.style.opacity = 1;
+      tip.style.left = (ev.clientX + 12) + "px";
+      tip.style.top  = (ev.clientY + 12) + "px";
+      tip.textContent = `${alias ? alias+" · " : ""}${tool} · ${d[MINUTES_COLUMN]} min/day · skill ${d[SKILL_COLUMN]}`;
+    });
+    g.addEventListener("mouseleave", () => tip.style.opacity = 0);
+    svg.appendChild(g);
+  });
+
+  // legend
+  tools.forEach(t => {
+    const item = document.createElement("span");
+    item.className = "badge";
+    const dot = document.createElement("span");
+    dot.className = "dot";
+    dot.style.background = colorFor(t);
+    const label = document.createElement("span");
+    label.textContent = t || "Unknown";
+    item.appendChild(dot); item.appendChild(label);
+    legend.appendChild(item);
+  });
+}
+
+async function loadAndRender() {
+  try {
+    const res = await fetch(SHEET_CSV_URL, { cache: "no-store" });
+    const csv = await res.text();
+    const parsed = Papa.parse(csv, { header: true, skipEmptyLines: true });
+    render(parsed.data);
+  } catch (e) {
+    console.error(e);
+    if (debug) debug.textContent = "Failed to load CSV. Is the link public?";
   }
 }
 
